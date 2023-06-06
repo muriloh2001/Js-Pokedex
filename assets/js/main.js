@@ -44,7 +44,7 @@ const displayStatus = (pokemon) =>{
     pokemon.type = type
  
     const photo = pokemon.sprites.other.dream_world.front_default
-    const htmlString = `
+    const saida = `
    
     <div id="status">
       <div id="detailPokemon">
@@ -86,7 +86,7 @@ const displayStatus = (pokemon) =>{
     
     `
    
-    pokemonList.innerHTML = htmlString + pokemonList.innerHTML
+    pokemonList.innerHTML = saida + pokemonList.innerHTML
 }
 
 const closeStatus = () =>{
